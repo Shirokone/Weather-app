@@ -1,5 +1,13 @@
 .box {
     flex: 1;
-    min-height: 100px;
-  
+    display: flex;
+    background-color: rgb(230, 230, 230);
+    max-height: 80px;
+    font-weight: bold;
+}
+
+.part {
+    flex: 1;
+    text-align: center;
+    align-self: center;
 }
